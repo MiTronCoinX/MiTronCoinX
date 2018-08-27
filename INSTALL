@@ -1,0 +1,9 @@
+Building MiTronCoinX
+
+See doc/readme-qt.rst for instructions on building MiTronCoinX-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of MiTronCoinX.
+
+See doc/build-*.txt for instructions on building mitroncoinxd,
+the intended-for-services, no-graphical-interface, reference
+implementation of MiTronCoinX.

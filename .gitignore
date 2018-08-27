@@ -1,0 +1,34 @@
+src/*.exe
+src/mitroncoinx
+src/mitroncoinxd
+src/test_mitroncoinx
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.mitroncoinx
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+mitroncoinx-qt
+MiTronCoinX-Qt.app
+
+# Unit-tests
+Makefile.test
+mitroncoinx-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
